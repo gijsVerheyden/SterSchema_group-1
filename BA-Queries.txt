@@ -1,0 +1,20 @@
+INSERT INTO Transfers (TransferID, PersoonID, OudeCloubID, NieuweClubID, Bedrag, TransferMoment)
+VALUES (1, 1, 1, 2, 1000000, 1)
+
+INSERT INTO Persoon (Naam, Nationaliteit, GeboorteDatum, Lengte, Gewicht, Geslacht, Foto)
+VALUES ('Gijs Verheyden', 'Belg', 2, 185, 70, 'M', '<imageURL>')
+
+INSERT INTO Skills (SkillID, Naam, Percentage, PersoonID, TijdID)
+VALUES (1, 'Balbeheersing', 98, 1, 3)
+
+INSERT INTO Tijd (TijdID, Jaar, Maand, Dag, Uur, Minuten, Kwartaal)
+VALUES (1, 2017, 05, 04, 16, 22, 2)
+
+INSERT INTO Contract (ContractID, StartDatum, EindDatum, Verloning)
+VALUES (1, 4, 5, 60000)
+
+INSERT INTO Club (ClubID, Naam, Land)
+VALUES (1, 'FC De Pottenstampers', 'Belgie')
+
+INSERT INTO Positie (PositieID, Naam, Veldnummer, PersoonID)
+VALUES (1, 'Aanvaller', 21, 1)
